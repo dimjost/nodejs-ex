@@ -50,7 +50,7 @@ if (mongoURL == null) {
   }
 }
 else {
-	mongoURLLabel = mongoURL;
+	mongoURLLabel = '* ' + mongoURL ' *';
 }
 var db = null,
     dbDetails = new Object();
